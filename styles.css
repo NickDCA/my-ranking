@@ -1,10 +1,12 @@
 @import url('styles/header.css');
+@import url('styles/main.css');
 
 :root {
   --light: #f4eeff;
   --light-purple: #dcd6f7;
   --secondary: #a6b1e1;
   --primary: #424874;
+  --black: #000000;
   --font: 'Raleway';
 }
 
@@ -12,4 +14,7 @@ body {
   height: 100vh;
   font-size: 16px;
   font-family: var(--font);
+  /* font-family: 'Courier New', Courier, monospace; */
+
+  background-color: var(--light-purple);
 }
