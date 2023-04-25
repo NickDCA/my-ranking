@@ -1,0 +1,15 @@
+@import url('styles/header.css');
+
+:root {
+  --light: #f4eeff;
+  --light-purple: #dcd6f7;
+  --secondary: #a6b1e1;
+  --primary: #424874;
+  --font: 'Raleway';
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  font-family: var(--font);
+}

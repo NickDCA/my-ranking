@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--primary);
+  text-align: center;
+  color: var(--light);
+  padding: 1em 1em;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
